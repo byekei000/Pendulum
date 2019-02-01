@@ -51,7 +51,7 @@ function drawPendulum(){
   translate(width/2,0);
   stroke(255);
   line(0,0,x*100,y*100-penHeight*100);
-  ellipse(x*100,y*100-penHeight*100,50,50);
+  ellipse(30,y*100-penHeight*100,50,50);
 }
 
 function mousePressed(){
